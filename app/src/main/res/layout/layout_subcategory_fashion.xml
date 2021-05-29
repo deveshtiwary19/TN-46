@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/design_botttom_sheet">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Men's Wear"
+                android:gravity="center"
+                android:id="@+id/menswear_fashionSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Women's Wear"
+                android:gravity="center"
+                android:id="@+id/womenswear_fashionSubBottom"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Sports Wear"
+                android:gravity="center"
+                android:id="@+id/sportswear_fashionSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Foot Wear"
+                android:gravity="center"
+                android:id="@+id/footwear_fashionSubBottom"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Bags and Luggages"
+                android:gravity="center"
+                android:id="@+id/bandl_fashionSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Gifts"
+                android:gravity="center"
+                android:id="@+id/gifts_fashionSubBottom"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Jwellers"
+                android:gravity="center"
+                android:id="@+id/jwellers_fashionSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Tailor Wears"
+                android:gravity="center"
+                android:id="@+id/tailorwears_fashionSubBottom"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Others"
+                android:gravity="center"
+                android:id="@+id/others_fashionSubBottom"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

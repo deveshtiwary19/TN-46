@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/v"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/v"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Account"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="On the off chance that you utilize the site, you are liable for keeping up the classification of your record and secret key and for confining access to your PC to forestall unapproved access to your record. You consent to acknowledge obligation regarding all exercises that happen under your record or secret phrase. You should find a way to guarantee that the secret key is kept private and secure and ought to educate us quickly in the event that you have any motivation to accept that your secret key has gotten known to any other person, or if the secret key is being, or is probably going to be, utilized in an unapproved way. It would be ideal if you guarantee that the subtleties you give us are right and finish and advise us quickly of any progressions to the data that you gave while enrolling. You can access and update a great part of the data you gave us in the Your Account territory of the site. You concur and recognize that you will utilize your record on the site to buy items just for your own utilization and not for business purposes. Should you wish to arrange items for business purposes, it would be ideal if you make a business account on Tnperambalur.com/business. Tnperambalur.com maintains whatever authority is needed to decline access to the site, end records, evacuate or alter content whenever without notice to you."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protection"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="It would be ideal if you audit our Privacy Notice, which likewise administers your visit to Tnperambalur.com, to comprehend our practices. The individual data/information gave to us by you over the span of use of Tnperambalur.com will be treated as carefully classified and as per the Privacy Notice and pertinent laws and guidelines. On the off chance that you item to your data being moved or utilized, kindly don’t utilize the site."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-Platform for Communication"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="You concur, comprehend and recognize that the site is an online stage that empowers you to buy items recorded on the site at the cost demonstrated in that whenever from any area. You further concur and recognize that Tn46perambalur is just a facilitator and isn’t and can’t be a gathering to or control in any way any exchanges on the site. As needs be, the agreement of offer of items on the site will be a carefully bipartite agreement among you and the venders on Tnperambalur.com."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Access to Tnperambalur.com"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+
+                android:textColor="@color/black"
+                android:text="We will do our most extreme to guarantee that accessibility of the site will be continuous and that transmissions will be sans blunder. Be that as it may, because of the idea of the Internet, this can’t be ensured. Likewise, your entrance to the site may likewise be at times suspended or limited to take into account fixes, support, or the presentation of new offices or administrations whenever without earlier notification. We will endeavor to restrain the recurrence and span of any such suspension or limitation."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="License for website access"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="Subject to your consistence with these Conditions of Use and installment of pertinent charges, assuming any, Tn46perambalur awards you a constrained permit to access and utilize this site, yet not to download (other than page storing) or alter it, or any segment of it, aside from with express composed assent of Tn46perambalur and/or its offshoots, as might be relevant. This permit does exclude any resale or business utilization of this site or its substance; any assortment and utilization of any item postings, depictions, or costs; any subsidiary utilization of this site or its substance; any downloading or replicating of record data to assist another merchant; or any utilization of information mining, robots, or comparable information social affair and extraction devices.
+
+This site or any part of this site (counting yet not constrained to any copyrighted material, brand names, or other exclusive data) may not be repeated, copied, replicated, sold, exchanged, visited, circulated or in any case abused for any business reason without express composed assent of Tn46perambalur and/or its partners, as might be pertinent.
+
+You may not edge or use encircling procedures to encase any brand name, logo, or other restrictive data (counting pictures, text, page design, or type) of Tnperambalur.com and its offshoots without express composed assent. You may not utilize any meta labels or some other “concealed content” using Tn46perambalur Seller Services ‘s or its partners’ names or brand names without the express composed assent of Tn46perambalur and/or its members, as relevant. Any unapproved use ends the authorization or permit allowed by Tn46perambalur and/or its members, as pertinent.
+
+You are conceded a restricted, revocable, and non-selective option to make a hyperlink to the Welcome page of Tnperambalur.com as long as the connection doesn’t depict Tn46perambalur Seller Services , Tnperambalur.com, their associates, or their items or administrations in a bogus, misdirecting, deprecatory, or in any case hostile issue. You may not utilize any Tnperambalur.com logo or other exclusive realistic or brand name as a major aspect of the connection without express composed assent of Tn46perambalur and/or its partners, as might be pertinent."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Conduct"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="You should not utilize the site at all that causes, or is probably going to cause, the site or access to it to be interfered, harmed or impeded in any capacity You comprehend that you, and not Tnperambalur.com, are liable for every single electronic correspondence and substance sent from your PC to us and you should utilize the site for legal purposes as it were. You should not utilize the site for any of the accompanying:
+for fake purposes, or regarding a criminal offense or other unlawful movement
+to send, utilize or reuse any material that doesn’t have a place with you; or is illicit, hostile (counting yet not constrained to material that is explicitly unequivocal substance or which advances prejudice, fanaticism, disdain or physical damage), beguiling, misdirecting, oppressive, revolting, badgering, ungodly, abusive, slanderous, profane, obscene, pedophilic or threatening; ethnically frightful, belittling or in break of copyright, brand name, secrecy, protection or some other restrictive data or right; or is generally damaging to outsiders; or identifies with or advances tax evasion or betting; or is unsafe to minors in any capacity; or mimics someone else; or compromises the solidarity, uprightness, security or sway of India or amicable relations with unfamiliar States; or offensive or in any case unlawful in any way at all; or which comprises of or contains programming infections, political battling, business sales, networking letters, mass mailings or any “spam
+to cause disturbance, burden or unnecessary tension
+Surveys, remarks, correspondences and other substance
+Clients of this site may post audits, remarks and other substance; send interchanges; and submit proposals, thoughts, remarks, questions, or other data, as long as the substance isn’t illicit, disgusting, oppressive, compromising, slanderous, obtrusive of security, encroaching of protected innovation rights, or in any case harmful to outsiders, or frightful and doesn’t comprise of or contain programming infections, political battling, business requesting, junk letters, mass mailings, or any type of “spam.” In the occasion a client utilizes a bogus email address, imitates any individual or element, or in any case misdirects with regards to the root of any substance. Tnperambalur.com saves the right (yet not the commitment) to expel, reject, erase or alter any substance that in the sole judgment of Tnperambalur.com disregards these Conditions of utilization and, or end your consent to access or utilize this site.
+On the off chance that you do post content or submit material, and except if we demonstrate else, you
+(an) award Tn46perambalur and its offshoots a non-selective, eminence free, permanent, ceaseless and completely sublicensable rights to utilize, duplicate, alter, adjust, distribute, decipher, make subsidiary works from, appropriate, and show such substance all through the world in any media; and
+(b) Tn46perambalur and its members and sublicensees the option to utilize the name that you submit regarding such substance, in the event that they pick.
+You concur that the rights you award above are irreversible during the whole time of assurance of your protected innovation rights related with such substance and material. You consent to postpone your entitlement to be distinguished as the creator of such substance and your entitlement to protest critical treatment of such substance. You consent to play out every single further act important to consummate any of the above rights conceded by you to Tn46perambalur Seller Services , including the execution of deeds and reports, at its solicitation.
+You speak to and warrant that you own or in any case control the entirety of the rights to the substance that you post or that you in any case give on or through the site; that, as at the date that the substance or material is submitted to Tnperambalur.com: (I) the substance and material is precise; (ii) utilization of the substance and material you gracefully doesn’t break any pertinent Tnperambalur.com strategies or rules and won’t cause injury to any individual or element (counting that the substance or material isn’t abusive); (iii) the substance is legitimate. You consent to repay Tn46perambalur and its associates for all cases brought by an outsider against it or its members emerging out of or regarding a break of any of these guarantees.
+Cases against Objectionable Content
+
+Since Tnperambalur.com records a huge number of items available to be purchased offered by venders on the site and has a large number of remarks, it isn’t feasible for us to know about the substance of every item recorded available to be purchased, or each remark or audit that is shown. Likewise, Tnperambalur.com works on a “notice and takedown” premise. In the event that you accept that any substance on the site is illicit, hostile (counting however not restricted to material that is explicitly unequivocal substance or which advances prejudice, dogmatism, contempt or physical mischief), beguiling, misdirecting, harsh, foul, annoying, godless, abusive, offensive, indecent, obscene, pedophilic or threatening; ethnically frightful, defaming; or is generally damaging to outsiders; or identifies with or advances illegal tax avoidance or betting; or is unsafe to minors in any capacity; or imitates someone else; or undermines the solidarity, honesty, security or sway of India or benevolent relations with unfamiliar States; or shocking or in any case unlawful in any way at all; or which comprises of or contains programming infections, (” Objectionable Content “), please advise us quickly by following our Notice and Procedure for Making Claims of Right Infringements. When this strategy has been followed, Tnperambalur.com will make every sensible undertaking to evacuate such Objectionable Content whined about inside a sensible time."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cases against Objectionable Content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="Since Tnperambalur.com records a huge number of items available to be purchased offered by venders on the site and has a large number of remarks, it isn’t feasible for us to know about the substance of every item recorded available to be purchased, or each remark or audit that is shown. Likewise, Tnperambalur.com works on a “notice and takedown” premise. In the event that you accept that any substance on the site is illicit, hostile (counting however not restricted to material that is explicitly unequivocal substance or which advances prejudice, dogmatism, contempt or physical mischief), beguiling, misdirecting, harsh, foul, annoying, godless, abusive, offensive, indecent, obscene, pedophilic or threatening; ethnically frightful, defaming; or is generally damaging to outsiders; or identifies with or advances illegal tax avoidance or betting; or is unsafe to minors in any capacity; or imitates someone else; or undermines the solidarity, honesty, security or sway of India or benevolent relations with unfamiliar States; or shocking or in any case unlawful in any way at all; or which comprises of or contains programming infections, (” Objectionable Content “), please advise us quickly by following our Notice and Procedure for Making Claims of Right Infringements. When this strategy has been followed, Tnperambalur.com will make every sensible undertaking to evacuate such Objectionable Content whined about inside a sensible time."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Copyright, creators’ privileges and database rights"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="All substance remembered for the site, for example, text, designs, logos, button symbols, pictures, sound clasps, advanced downloads, information gatherings, and programming, is the property of Tnperambalur Seller Services Tnperambalur, its associates or its substance providers and is secured by India and worldwide copyright, creators’ privileges and database right laws. The aggregation of all substance on this site is the select property of Tnperambalur Seller Services Tnperambalur and its partners and is secured by laws of India and worldwide copyright and database right laws. All product utilized on this site is the property of Tnperambalur Seller Services Tnperambalur, its offshoots or its product providers and is ensured by India and worldwide copyright and creator’ rights laws.
+
+You may not methodicallly concentrate/or re-use portions of the substance of the site without Tnperambalur Seller Services Tnperambalur and/or its offshoot’s (as might be pertinent) express composed assent. Specifically, you may not use any information mining, robots, or comparative information social event and extraction apparatuses to separate (regardless of whether once or ordinarily) for re-usage of any significant pieces of this site, without Tnperambalur Seller Services Tnperambalur and/or its subsidiary’s (as might be material) express composed assent. You may likewise not make as well as distribute your own database that highlights significant (eg: costs and item postings) portions of this site without Tnperambalur Seller Services Tnperambalur and/or its offshoot’s (as might be pertinent) express composed assent."
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reimbursement and Release"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="You will reimburse and hold innocuous Tnperambalur Seller Services Tnperambalur, its auxiliaries, offshoots and their particular officials, chiefs, specialists and representatives, from any case or request, or activities including sensible lawyer’s expenses, made by any outsider or punishment forced due to or emerging out of your penetrate of these Conditions of Use or any record joined by reference, or your infringement of any law, rules, guidelines or the privileges of an outsider.
+
+You thus explicitly discharge Tnperambalur Seller Services Tnperambalur as well as its partners or potentially any of its officials and agents from any cost, harm, obligation or other outcome of any of the activities/inactions of the merchants and explicitly waiver any cases or requests that you may have for this sake under any rule, contract or something else."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kids"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="Utilization of Tnperambalur.com is accessible just to people who can frame a legitimately restricting agreement under the Indian Contract Act, 1872. On the off chance that you are a minor for example younger than 18 years, you may utilize Tnperambalur.com just with the inclusion of a parent or watchman."                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interchanges"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="At the point when you visit Tnperambalur.com, you are speaking with us electronically. You will be required to give a substantial telephone number while submitting a request with us. We may speak with you by email, SMS, call or by posting sees on the site or by some other method of correspondence. For legally binding purposes, you agree to get interchanges (counting value-based, special or potentially business messages), from us as for your utilization of the site as well as your request put on the site."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Misfortunes"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="We won’t be answerable for any business misfortune (counting loss of benefits, income, contracts, foreseen reserve funds, information, generosity or squandered use) or whatever other roundabout or weighty misfortune that isn’t sensibly predictable to both you and us when you started utilizing the site."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modification of Service or Amendements to the Conditions"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="We maintain whatever authority is needed to make changes to our site, strategies, and these Conditions of Use whenever. You will be dependent upon the approaches and Conditions of Use in power at the time that you utilize the site or that you request products from us, except if any change to those arrangements or these conditions is required to be made by law or government expert (in which case it will apply to orders recently positioned by you). On the off chance that any of these conditions is regarded invalid, void, or under any conditions unenforceable, that condition will be esteemed severable and won’t influence the legitimacy and enforceability of any outstanding condition."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Occasions past our sensible control"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="We won’t be considered liable for any deferral or inability to consent to our commitments under these conditions if the postponement or disappointment emerges from any reason which is past our sensible control. This condition doesn’t influence your legal rights."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waiver"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="In the event that you break these conditions and we make no move, we will in any case be qualified for utilize our privileges and cures in whatever other circumstance where you penetrate these conditions."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overseeing law and Jurisdiction"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="These conditions are represented by and interpreted as per the laws of India. You concur, as we do, to submit to the selective locale of the courts at Delhi."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Endorses and Export Policy"
+                android:textColor="#000000"
+                android:textSize="15sp"
+
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="You may not utilize any Tnperambalur Service in the event that you are the subject of U.S. sanctions or of approvals steady with U.S. law forced by the administrations of the nation where you are utilizing Tnperambalur Services. You should conform to all U.S. or then again other fare and re-trade limitations that may apply to products, programming (counting Tnperambalur Software), innovation and administrations."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Company Policies"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="Shipping Policies:
+
+*Morning delivery and Same-Day Delivery are available only to residential addresses.
+*Delivery attempts happen latest by 11 am for Morning delivery and 10 pm for Same-Day delivery
+**Orders placed with Delivery will be delivered within 1 or more days after it ships. The Estimated Delivery Date will be displayed to you before placing the order."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Return Policy:
+
+Products are returnable within the applicable return window if you’ve received them in a condition that is physically damaged, has missing parts or accessories, defective or different from their description on the product detail page on Tnperambalu.com.
+If you report an issue with your Smartphone, Tablet, Laptop, Television, Air Conditioner, Refrigerator, Washing Machine, Microwave, we may schedule a technician visit to your location. This visit is scheduled by placing an order with Tnperambalur through Tnperambalur.com Home Services. Subject to Tnperambalur.com Home Services Terms and Conditions, a resolution will be provided based on the technician’s evaluation report.
+Return will be processed only if:
+it is determined that the product was not damaged while in your possession;
+the product is not different from what was shipped to you;
+the product is returned in original condition (with brand’s/manufacturer’s box, MRP tag intact, user manual, warranty card and all the accessories therein).
+If you wish to return an electronic device that stores any personal information, please ensure that you have removed all such personal information from the device prior to returning. Tnperambalur shall not be liable in any manner for any misuse or usage of such information.
+Products may not be eligible for return in some cases, including cases of buyer’s remorse such as incorrect model or color of product ordered or incorrect product ordered.
+Products marked as “non-returnable” on the product detail page cannot be returned.
+Additional information is not required to return an eligible order unless otherwise noted in the category specific policy.
+Products may be eligible for replacement only if the same seller has the exact same item in stock.
+If the replacement request is placed and the seller does not have the exact same product in stock, we will provide a refund."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Refund Policies:
+
+1. If the payment method, which you used to make the payment (such as credit/ debit card) at the time of purchase, is no longer valid, refund will be issued through a demand draft.
+
+2. If we receive a payment failure notice from your bank, refund will be issued through a demand draft.
+
+We will send you an e-mail asking you to call us and provide your name and address where you want the demand draft to be sent. After we receive these details, refund will be initiated."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="For Seller-Fulfilled orders:
+
+1. For damaged/ defective items, the seller will issue a refund if the item cannot be repaired or replaced.
+
+2. In any case where a refund is required, the seller(s) need to authorise that refund. Tnperambalur.com can assist in facilitating refunds for you only when the seller notifies us of the receipt of the item. Once the seller notifies us of the receipt of the return item, the above refund time period will apply for processing refunds."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="Refund for Pay on Delivery Orders:
+
+For Pay on Delivery orders, refunds will be processed either to your bank account (via National Electronic Funds Transfer (NEFT)) or Tnperambalur account.
+
+If you wish to receive the Pay on Delivery order’s refund to your bank account, you can update the details of the bank account in Your Account section or from the Returns Centre when you are returning an item.
+
+Note: Refunds cannot be processed to third-party accounts. The name on your Tnperambalur account should match with the name of the bank account holder.
+
+If you plan to present the cheque in person in any other city, ensure that your beneficiary bank sends the cheque for outstation clearing.
+
+In case you plan to drop your cheque in a clearance box, please note the following:
+
+– If you are dropping the cheque in a clearance box in any of the above cities, use the box marked Local Cheques.
+
+– If you are dropping the cheque in a clearance box in any other city, use the box marked Outstation Cheques.
+
+Failing to follow the above instructions might result in the cheque not being processed and a penalty being levied by the bank.
+
+Note: Once a cheque is issued, Tnperambalur will send you an e-mail with the tracking details of the refund cheque within 4 business days from the date of refund.
+
+Dispute Resolution :
+
+When the issue does not relate to the services offered by Tnperambalur Pay directly but to the services provided by the merchant, or if the issue cannot be resolved with the merchant, you can dispute the transaction from the contact page."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Privacy Policy:
+
+The information we learn from customers helps us personalise and continually improve your shopping experience at Tnperambalu.com. We use your information to assist sellers in handling orders, deliver products and services, process payments, communicate with you about orders, products, services and promotional offers, update our records and generally maintain your accounts with us, display content such as wish lists and customer reviews and recommend merchandise and services that might be of interest to you. We also use this information to improve our platform, prevent or detect fraud or abuses of our website and enable third parties to carry out technical, logistical or other functions on our behalf.
+
+Here are the types of information we gather.
+
+"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="Information You Give Us: We receive and store any information you enter on our website or give us in any other way. Click  to see examples of what we collect. You can choose not to provide certain information but then you might not be able to take advantage of many of our features. We use the information that you provide for such purposes as responding to your requests, customising future shopping for you, improving our platform, and communicating with you."
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Automatic Information: We receive and store certain types of information whenever you interact with us. For example, like many websites, we use “cookies” and we obtain certain types of information when your Web browser accesses Tnperambalur.com or advertisements and other content served by or on behalf of Tnperambalur.com on other Web sites. Click here to see examples of the information we receive. We may also receive/store information about your location and your mobile device, including a unique identifier for your device. We may use this information for internal analysis and to provide you with location-based services, such as advertising, search results, and other personalized content."                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="E-mail Communications: To help us make e-mails more useful and interesting, we often receive a confirmation when you open e-mail from Tnperambalur.com if your computer supports such capabilities. We also compare our customer list to lists received from other companies in an effort to avoid sending unnecessary messages to our customers. If you do not want to receive e-mail or other mail from us, please adjust your Customer Communication Preferences."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Information from Other Sources: We might receive information about you from other sources and add it to our account information.
+
+By using or continuing to use the site you agree to our use of your information (including sensitive personal information) in accordance with this Privacy Notice, as may be amended from time to time by Tnperambalur.com in its discretion. You also agree and consent to us collecting, storing, processing, transferring and sharing information (including sensitive personal information) related to you with third parties or service providers for the purposes as set out in this Privacy Notice.
+
+We may be required to share the aforesaid information with government authorities and agencies for the purposes of verification of identity or for prevention, detection or investigation, including of cyber incidents, prosecution and punishment of offences. You agree and consent for Tnperambalur.com to disclose your information, if so required, under applicable law.
+
+Cancellation Policy:
+
+If you want to cancel the order, then they can call to our customer service to cancel the orders. They will guide you through the procedures."/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

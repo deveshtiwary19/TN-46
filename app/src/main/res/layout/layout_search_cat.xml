@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/design_botttom_sheet"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Choose the category in which you want to search products"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/editttxt"
+            android:layout_marginTop="12dp"
+            android:text="Electronic Items"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:id="@+id/electronicItems_s"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/editttxt"
+            android:layout_marginTop="12dp"
+            android:text="Grocery Items"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:id="@+id/groceryItems_s"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/editttxt"
+            android:layout_marginTop="12dp"
+            android:text="Fashion Items"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:id="@+id/fashionItems_s"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

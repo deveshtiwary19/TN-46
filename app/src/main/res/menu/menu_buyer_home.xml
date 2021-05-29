@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/customproduct_sellerMenu"
+        android:title="Custom product order"
+        android:icon="@drawable/customorder_ic"
+        />
+
+    <item
+        android:id="@+id/myOrders_sellerMenu"
+        android:title="My Orders"
+        android:icon="@drawable/orders_ic"
+        />
+
+    <item
+        android:id="@+id/aboutus_sellerMenu"
+        android:title="About Us"
+        android:icon="@drawable/aboutus_ic"
+        />
+
+    <item
+        android:id="@+id/contactus_sellerMenu"
+        android:title="Contact Us"
+        android:icon="@drawable/contactus_ic"
+        />
+
+    <item
+        android:id="@+id/rateus_sellerMenu"
+        android:title="Rate Us"
+        android:icon="@drawable/rateus_ic"
+        />
+
+    <item
+        android:id="@+id/news_sellerMenu"
+        android:title="News"
+android:icon="@drawable/news_ic"
+        />
+
+    <item
+        android:id="@+id/jobs_sellerMenu"
+        android:title="Jobs"
+        android:icon="@drawable/jobs_ic"
+        />
+
+    <item
+        android:id="@+id/logout_sellerMenu"
+        android:title="Logout"
+        android:icon="@drawable/logout_ic"
+        />
+
+</menu>

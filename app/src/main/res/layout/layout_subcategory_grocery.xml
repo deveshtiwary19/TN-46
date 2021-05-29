@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/design_botttom_sheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Cosmetics"
+                android:gravity="center"
+                android:id="@+id/cosmetic_grocSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Masalas"
+                android:gravity="center"
+                android:id="@+id/masala_grocSubBottom"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Flours"
+                android:gravity="center"
+                android:id="@+id/flour_grocSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Rice"
+                android:gravity="center"
+                android:id="@+id/rice_grocSubBottom"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Health Product"
+                android:gravity="center"
+                android:id="@+id/healthProduct_grocSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Genral Cleaning"
+                android:gravity="center"
+                android:id="@+id/genralCleaning_grocSubBottom"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Men's and Women's Beauty"
+                android:gravity="center"
+                android:id="@+id/mensAndWomensBeauty_grocSubBottom"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

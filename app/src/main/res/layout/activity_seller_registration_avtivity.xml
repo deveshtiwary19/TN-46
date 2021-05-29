@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".seller.SellerRegistrationAvtivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:src="@drawable/backbtn_ic"
+                app:tint="@color/black"
+                android:id="@+id/backBtn_sellerReg"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:textColor="@color/black"
+                android:text="Seller Registration"
+                android:layout_marginLeft="15dp"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/editttxt"
+                android:textColorHint="#A9A9A9"
+                android:padding="8dp"
+                android:hint="Enter Seller Name"
+                android:id="@+id/name_sellerReg"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/editttxt"
+                android:textColorHint="#A9A9A9"
+                android:padding="8dp"
+                android:hint="Enter Shop Name"
+                android:id="@+id/shopName_sellerReg"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/editttxt"
+                android:textColorHint="#A9A9A9"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:maxLength="10"
+                android:inputType="number"
+                android:hint="Enter Contact Number"
+                android:id="@+id/contact_sellerReg"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="11sp"
+                android:textColor="#A9A9A9"
+                android:layout_marginLeft="40dp"
+                android:text="*Make sure your registration only gets completed after TN-46 adminstration verifies your contact details. Acceptance of payent doesn't lead to complete registration."
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:id="@+id/contactAdvice_sellerReg"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/editttxt"
+                android:textColorHint="#A9A9A9"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:hint="Enter Email Adress"
+                android:textColor="@color/black"
+                android:id="@+id/email_sellerReg"
+                />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/editttxt"
+                android:textColorHint="#A9A9A9"
+                android:padding="8dp"
+                android:gravity="start"
+                android:lines="4"
+                android:hint="Enter Shop Adress"
+                android:textColor="@color/black"
+                android:id="@+id/shopAdress_sellerReg"
+                />
+
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/buttons"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Register me"
+                android:textAllCaps="false"
+                android:textSize="22sp"
+                android:id="@+id/registerBtn_sellerReg"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="11sp"
+                android:textColor="#A9A9A9"
+                android:layout_marginLeft="20dp"
+                android:text="By clickling on REGISTER ME you agree to all our terms and conditions and the application redirects you to a payment page where the registration fee of Rs. 50/- has to be paid by teh seller. "
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="7dp"
+                android:id="@+id/registerAdvice_sellerReg"
+                />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

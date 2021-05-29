@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/splash_back"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/final_logo"
+            android:id="@+id/logo_splashscreen"
+            android:layout_above="@id/l1_ss"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:id="@+id/l1_ss"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:text="Welcome to TN-46\nSelect your desired pannel"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/black_buttons"
+                android:layout_margin="10dp"
+                android:text="Customer/Buyer"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:id="@+id/customerBtn_ss"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/black_buttons"
+                android:layout_margin="10dp"
+                android:text="Seller"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:id="@+id/sellerBtn_ss"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15.5sp"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:text="Switch to Admin Pannel"
+                android:layout_gravity="center"
+                android:id="@+id/adminBtn_ss"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

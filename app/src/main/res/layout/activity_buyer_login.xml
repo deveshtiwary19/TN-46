@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Buyer.BuyerLoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/mainyellow"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mainyellow"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="65dp"
+                    >
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:lottie_rawRes="@raw/login_anim"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:text="Welcome"
+                            android:textColor="@color/black"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="normal"
+                            android:textSize="13sp"
+                            android:text="Dear User,\nWelcome to the buyer pannel of TN-46"
+                            android:textColor="@color/black"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+            <!--The login option cardView-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:elevation="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginBottom="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Sign In"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/title_buyerlogin"
+                        />
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/editttxt"
+                        android:drawableLeft="@drawable/email_ic"
+                        android:textColor="@color/black"
+                        android:drawableStart="@drawable/email_ic"
+                        android:drawableTint="@color/mainyellow"
+                        android:padding="5dp"
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="#A9A9A9"
+                        android:drawablePadding="5dp"
+                        android:hint="Enter your email adress"
+                        android:maxLines="1"
+                        android:id="@+id/email_buyerlogin"
+                        />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/editttxt"
+                        android:drawableLeft="@drawable/password_ic"
+                        android:textColor="@color/black"
+                        android:drawableStart="@drawable/password_ic"
+                        android:drawableTint="@color/mainyellow"
+                        android:padding="5dp"
+                        android:inputType="textPassword"
+                        android:textColorHint="#A9A9A9"
+                        android:drawablePadding="5dp"
+                        android:hint="Enter password"
+                        android:maxLines="1"
+                        android:id="@+id/password_buyerlogin"
+                        />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/editttxt"
+                        android:drawableLeft="@drawable/password_ic"
+                        android:textColor="@color/black"
+                        android:drawableStart="@drawable/password_ic"
+                        android:drawableTint="@color/mainyellow"
+                        android:padding="5dp"
+                        android:inputType="textPassword"
+                        android:textColorHint="#A9A9A9"
+                        android:drawablePadding="5dp"
+                        android:hint="Confirm password"
+                        android:maxLines="1"
+                        android:id="@+id/confirmPassword_buyerlogin"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="Forget Password?"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/forgetPassword_buyerlogin"
+                        />
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/buttons"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Login"
+                        android:textAllCaps="false"
+                        android:textSize="22sp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/loginBtn_buyerlogin"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Not a user?Register"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/register_loginLink_buyerlogin"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+</RelativeLayout>

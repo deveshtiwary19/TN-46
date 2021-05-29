@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".OrderSummary">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:src="@drawable/backbtn_ic"
+                android:scaleType="fitXY"
+                app:tint="@color/black"
+                android:layout_margin="10dp"
+                android:id="@+id/backBtn_os"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:textColor="@color/black"
+                android:text="Order Summary"
+                android:layout_marginLeft="15dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#A9A9A9"
+                    android:text="Order ID:"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="XXXXXXXXXXXXXXXXXXXXX"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:id="@+id/orderid_os"
+                    />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Items under your Order:"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/recycler_os"
+              />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A9A9A9"
+                    android:text="Net Amount:"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:text="Rs XX.00/-"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/amount_os"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Delivery Details:"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Delivery Name\nDelivery Adress\nCity-PIN\nDelivery Contact"
+                android:textStyle="normal"
+                android:id="@+id/deliveryDetails_os"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ordered at:"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Date: XX/XX/XXXX\nTime: XX:XX:XX"
+                android:textStyle="normal"
+                android:id="@+id/dateTime_os"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Payment Mode:"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Cash On Delivery(COD)"
+                android:textStyle="normal"
+                android:id="@+id/paymentmode_os"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:id="@+id/adminLayout_os"
+                android:visibility="gone"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Order Status:"
+                    android:textStyle="bold"
+                    />
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/radGrp_os"
+                    >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/mainyellow"
+                        android:text="Placed"
+                        android:textColor="@color/black"
+                        android:id="@+id/plaedRadBtn_os"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/mainyellow"
+                        android:text="Accepted"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black"
+                        android:id="@+id/acceptedRadBtn_os"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/mainyellow"
+                        android:text="Delivered"
+                        android:textColor="@color/black"
+                        android:id="@+id/deliveredRadBtn_os"
+                        />
+
+                </RadioGroup>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buttons"
+                    android:elevation="10dp"
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:text="Update Status"
+                    android:id="@+id/updateBtn_os"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:text="Marke sure for the amount accepted for COD orders before marking delivered. Once the order is delivered, the status can not be changed."
+                    android:textStyle="normal"
+                    android:layout_marginRight="20dp"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/placed_status"
+                android:id="@+id/customerLayout_os"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+</ScrollView>

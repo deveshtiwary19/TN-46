@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/xyz"
+                    android:scaleType="fitXY"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/mainyellow"
+                        android:text="TN-46"
+                        android:fontFamily="monospace"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:textSize="12sp"
+                        android:textColor="@color/mainyellow"
+                        android:text="The Connecting Always"
+                        android:fontFamily="monospace"
+                        />
+
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="2dp"
+                    android:scaleType="fitXY"
+                    app:tint="@color/black"
+                    android:layout_below="@id/xyz"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/xyz"
+                    android:textSize="14sp"
+                    android:layout_marginTop="8dp"
+                    android:text="Exaple text.....\nexampe text"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/text_dialog"
+                    />
+
+
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            app:cardCornerRadius="30dp"
+            android:layout_marginBottom="2dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/mainyellow"
+                android:text="Yes"
+                android:textSize="18sp"
+                android:id="@+id/positive_dialog"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            app:cardCornerRadius="30dp"
+            android:layout_marginBottom="2dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/mainyellow"
+                android:text="No"
+                android:textSize="18sp"
+                android:id="@+id/negative_dialog"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

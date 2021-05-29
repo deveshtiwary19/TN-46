@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/design_botttom_sheet">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:src="@drawable/backbtn_ic"
+            app:tint="@color/black"
+            android:scaleType="fitXY"
+            android:id="@+id/backBtn_newsJobs_bs"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+            android:text="Add News"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/heading_newsJobs_bs"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/editttxt"
+            android:hint="Enter the title here."
+            android:textColor="@color/black"
+            android:textColorHint="#A9A9A9"
+            android:padding="8dp"
+            android:id="@+id/title_newsJobs_bs"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:lines="5"
+            android:gravity="start"
+            android:background="@drawable/editttxt"
+            android:hint="Enter the description here."
+            android:textColor="@color/black"
+            android:textColorHint="#A9A9A9"
+            android:padding="8dp"
+            android:id="@+id/descri_newsJobs_bs"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttons"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:text="Post"
+            android:id="@+id/postBtn_newsJobs_bs"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

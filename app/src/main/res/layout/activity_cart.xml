@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyer.CartActivity"
+    android:background="@color/white">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/backbtn_ic"
+                app:tint="@color/black"
+                android:scaleType="fitXY"
+                android:id="@+id/backBtn_cart"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:textColor="@color/black"
+                android:text="Your Cart"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/storeTitle_subCategoryActivity"
+                android:layout_marginBottom="15dp"
+                />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/recycler_cart"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Your cart is empty...\nPlease addd some items"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                />
+
+
+
+<!-- The layout to  take the delivery details-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Enter the delivery details"
+                       android:textColor="@color/black"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginTop="20dp"
+                       />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:gravity="right"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="10dp"
+                       android:text="Autofill Details"
+                       android:textColor="#0000FF"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginTop="20dp"
+                       android:id="@+id/autofill_cart"
+                       />
+
+               </LinearLayout>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/editttxt"
+                    android:layout_margin="10dp"
+                    android:hint="Enter the delivery name"
+                    android:textColorHint="#A9A9A9"
+                    android:padding="5dp"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:id="@+id/name_cart"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/editttxt"
+                    android:layout_margin="10dp"
+                    android:hint="Enter your 10 digit Contact for delivery"
+                    android:textColorHint="#A9A9A9"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:maxLength="10"
+                    android:textSize="12sp"
+                    android:id="@+id/contact_cart"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery Adress"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="@drawable/editttxt"
+                    android:layout_margin="10dp"
+                    android:hint="Provide a adress for delivery"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textColorHint="#A9A9A9"
+                    android:padding="5dp"
+                    android:textSize="12sp"
+                    android:id="@+id/adress_cart"
+                    android:editable="false"
+                    android:inputType="none"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:text="Net Total"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="right"
+                    android:text="Rs XX.00/-"
+                    android:textSize="22sp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/totalPrice_cart"
+                    />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose the payment method"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radGrp_cart"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/mainyellow"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/black"
+                    android:text="Pay Online"
+                    android:id="@+id/onlineBtn_cart"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/mainyellow"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/black"
+                    android:text="Cash On Delivery"
+                    android:id="@+id/codBtn_cart"
+                    />
+
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:textColor="#A9A9A9"
+                android:text="*It is adviced to choose online payment method,\nto avoid physical contact."
+                android:gravity="center"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/buttons"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Place Order"
+                android:textAllCaps="false"
+                android:id="@+id/placeOrder_cart"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seller.AddProduct">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:src="@drawable/backbtn_ic"
+                app:tint="@color/black"
+                android:layout_marginTop="10dp"
+                android:id="@+id/backBtn_addProduct"
+                android:layout_marginLeft="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="You are adding product under\nElectronics category"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_marginRight="15dp"
+                android:id="@+id/title_addProduct"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/addimage_ic"
+                android:id="@+id/image1_addProduct"
+              />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/addimage_ic"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/image2_addProduct"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/addimage_ic"
+                    android:layout_marginLeft="4dp"
+                    android:id="@+id/image3_addProduct"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/addimage_ic"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/image4_addProduct"
+                    android:layout_weight="1"/>
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:text="*Make sure the image fits properly in the first box. It is the proper size of the image shown to the users."
+                android:layout_marginLeft="45dp"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/editttxt"
+                android:layout_margin="10dp"
+                android:textColorHint="#A9A9A9"
+                android:textColor="@color/black"
+                android:hint="Enter the product name"
+                android:maxLines="2"
+                android:id="@+id/name_addProduct"
+                android:padding="10dp"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/editttxt"
+                android:layout_margin="10dp"
+                android:textColorHint="#A9A9A9"
+                android:textColor="@color/black"
+                android:hint="Enter the product price(in Rupees)"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:inputType="numberDecimal"
+                android:maxLength="7"
+                android:id="@+id/price_addProduct"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/editttxt"
+                android:layout_margin="10dp"
+                android:textColorHint="#A9A9A9"
+                android:hint="Brief description about product"
+                android:maxLines="2"
+                android:gravity="start"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:id="@+id/descri_addProduct"
+                />
+
+
+            <!--Following is the layout for the electronics category-->
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:id="@+id/layout_variantschoice_electronics"
+               android:visibility="gone"
+               >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Select the avilable variants"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="10dp"
+                   android:textStyle="bold"
+                   android:textSize="15sp"
+                   />
+
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="2 GB"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/twogb_btn"
+                    />
+
+               <Button
+                   android:layout_width="120dp"
+                   android:layout_height="45dp"
+                   android:background="#A9A9A9"
+                   android:layout_marginLeft="12dp"
+                   android:text="3 GB"
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/threegb_btn"
+                   />
+
+               <Button
+                   android:layout_width="120dp"
+                   android:layout_height="45dp"
+                   android:background="#A9A9A9"
+                   android:layout_marginLeft="12dp"
+                   android:text="4 GB"
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/fourgb_btn"
+                   />
+
+               <Button
+                   android:layout_width="120dp"
+                   android:layout_height="45dp"
+                   android:background="#A9A9A9"
+                   android:layout_marginLeft="12dp"
+                   android:text="6 GB"
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/sixgb_btn"
+                   />
+
+               <Button
+                   android:layout_width="120dp"
+                   android:layout_height="45dp"
+                   android:background="#A9A9A9"
+                   android:layout_marginLeft="12dp"
+                   android:text="8 GB"
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/eightgb_btn"
+                   />
+
+               <Button
+                   android:layout_width="120dp"
+                   android:layout_height="45dp"
+                   android:background="#A9A9A9"
+                   android:layout_marginLeft="12dp"
+                   android:text="Others"
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/othreselectrical_btn"
+                   />
+
+           </LinearLayout>
+
+
+                <!--Following is the layout for the grocery category-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/layout_variantschoice_grocery"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select the avilable variants"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    />
+
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="50 g"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/fifty_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="100 g"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/hundred_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="200 g"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/twohundred_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="250 g"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/twofifty_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="500 g"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/fivehundred_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="1 kg"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/onekg_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="Others"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/othresgrocery_btn"
+                    />
+
+            </LinearLayout>
+
+
+            <!-- The layout for the fashion category-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/layout_variantschoice_fashion"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select the avilable variants"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    />
+
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="S"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/s_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="M"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/m_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="L"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/l_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="XL"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/xl_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="XXL"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/xxl_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="Free Size"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/freesize_btn"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:background="#A9A9A9"
+                    android:layout_marginLeft="12dp"
+                    android:text="Others"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/othersfashion_btn"
+                    />
+
+            </LinearLayout>
+
+
+                <!--The layout for electronics subcategory-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:id="@+id/electronics_subcategories_layout_addProduct"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select the subcategory"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/electrnics_subcategories_radGrp_addProduct"
+                    >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Mobile Phones"
+                       android:buttonTint="@color/mainyellow"
+                        android:id="@+id/mobilePhone_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="PC and Laptops"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/pcandlaptop_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Home Appliances"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/homeAppliance_radBtn"
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Accesories"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/accesories_radBtn"
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Electrical"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/electrical_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Furnitures"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/furniture_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Refurbished"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/refurbished_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Others"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/electricothers_radBtn"
+                        />
+
+
+
+
+
+
+                </RadioGroup>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+<!--The subcategories for the grocery category-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:id="@+id/grocery_subcategories_layout_addProduct"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select the subcategory"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/grocery_subcategories_radGrp_addProduct"
+                    >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Cosmetics"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/comsetics_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Masalas"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/masalas_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Flours"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/flours_radBtn"
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Rice"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/rice_radBtn"
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Health Product"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/healthProduct_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Genral and Cleaning"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/genralAndCleaning_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Men and Women's Beauty"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/mensandwomensbeauty_radBtn"
+                        />
+
+
+                </RadioGroup>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+<!--            The subcategory for the fashion category-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:id="@+id/fashion_subcategories_layout_addProduct"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select the subcategory"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/fashion_subcategories_radGrp_addProduct"
+                    >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Men's Wear"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/menswear_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Women's Wear"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/womenswear_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Sports Wear"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/sportswear_radBtn"
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Footwear"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/footwear_radBtn"
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Bags and Luggages"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/bandl_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Gifts"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/gifts_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Jwellers"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/jwellers_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Tailor Wear"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/tailorwear_radBtn"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Others"
+                        android:buttonTint="@color/mainyellow"
+                        android:id="@+id/fashionothers_radBtn"
+                        />
+
+
+
+
+
+
+                </RadioGroup>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/buttons"
+                android:layout_margin="10dp"
+                android:elevation="10dp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:text="Add Product"
+                android:textSize="16sp"
+                android:id="@+id/addProductBtn_addProduct"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

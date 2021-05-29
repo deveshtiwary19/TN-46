@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/design_botttom_sheet">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Mobile Phones"
+                android:gravity="center"
+                android:id="@+id/moblie_elecSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="PC and Laptops"
+                android:gravity="center"
+                android:id="@+id/pcandlaptop_elecSubBottom"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Home Appliances"
+                android:gravity="center"
+                android:id="@+id/homeAppliance_elecSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Accesories"
+                android:gravity="center"
+                android:id="@+id/accesories_elecSubBottom"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Electrical"
+                android:gravity="center"
+                android:id="@+id/electrical_elecSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Furniture"
+                android:gravity="center"
+                android:id="@+id/furniture_elecSubBottom"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Refurbished"
+                android:gravity="center"
+                android:id="@+id/refurbished_elecSubBottom"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/editttxt"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Others"
+                android:gravity="center"
+                android:id="@+id/others_elecSubBottom"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

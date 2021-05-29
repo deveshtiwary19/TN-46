@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/backbtn_ic"
+            app:tint="@color/black"
+            android:layout_gravity="center"
+            android:id="@+id/backBtn_searchProduct"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/editttxt"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/black"
+            android:hint="Search your favourite item here"
+            android:textColorHint="#A9A9A9"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:drawableRight="@drawable/search_ic"
+            android:drawableTint="@color/black"
+            android:id="@+id/searchBox_searchProduct"
+            />
+
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:id="@+id/sponseredAdd_searchActivity"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/radGrp_searchActivity"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainyellow"
+            android:textColor="@color/black"
+            android:text="Electronics"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/radBtn_electronics_search"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainyellow"
+            android:textColor="@color/black"
+            android:text="Grocery"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/radBtn_grocery_search"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/mainyellow"
+            android:textColor="@color/black"
+            android:text="Fashion"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/radBtn_fashion_search"
+            />
+
+
+
+    </RadioGroup>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/recycler_searchActivity"
+        />
+
+
+
+
+</LinearLayout>

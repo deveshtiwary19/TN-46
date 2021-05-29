@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/design_botttom_sheet">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:background="@drawable/editttxt"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#A9A9A9"
+                android:padding="2dp"
+                android:hint="Hosue/Flat No"
+                android:inputType="text"
+                android:id="@+id/houseNo_adressBottom"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:background="@drawable/editttxt"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#A9A9A9"
+                android:padding="2dp"
+                android:hint="Road No"
+                android:id="@+id/roadNo_adressBottom"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/editttxt"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#A9A9A9"
+            android:padding="2dp"
+            android:hint="Locality"
+            android:maxLines="1"
+            android:id="@+id/locality_adressBottom"
+            />
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:background="@drawable/editttxt"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#A9A9A9"
+                android:padding="2dp"
+                android:maxLength="6"
+                android:hint="PIN Code"
+                android:inputType="number"
+                android:id="@+id/pincode_adressBottom"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:background="@drawable/editttxt"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#A9A9A9"
+                android:padding="2dp"
+                android:hint="City"
+                android:inputType="text"
+                android:id="@+id/city_adressBottom"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/editttxt"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#A9A9A9"
+            android:padding="2dp"
+            android:hint="Provide a landmark to reach you easily"
+            android:maxLines="1"
+            android:id="@+id/landmark_adressBottom"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            >
+
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:background="@drawable/editttxt"
+                android:layout_weight="1.5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#A9A9A9"
+                android:padding="2dp"
+                android:hint="State"
+                android:layout_gravity="right"
+                android:inputType="text"
+                android:id="@+id/state_adressBottom"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttons"
+            android:textColor="@color/black"
+            android:text="Add Adress"
+            android:textStyle="bold"
+            android:id="@+id/addAdress_adressBottom"
+            />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullProductActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView_addProduct"
+        android:layout_above="@id/btnLayout_addProduct"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/top1_fullProduct"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageRecycler_foodProduct"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/category_box"
+                    android:padding="4dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/backbtn_ic"
+                        android:id="@+id/backBtn_fullProduct"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/category_box"
+                    android:padding="8dp"
+                    android:layout_alignParentRight="true"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/cartic_foodProduct"/>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/top1_fullProduct"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Item Name"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/itemName_foodProduct"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="28sp"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Rs XX.00/-"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/itemPrice_foodProduct"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="Product Description"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:text="Product Description Product Description Product Description Product Description Product Description Product Description Product Description Product Description Product Description v Product Description Product Description"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/productDescription_foodProduct"
+                    />
+
+
+                <!--            Following is the layout for electronic variant-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/white"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:visibility="gone"
+                    android:id="@+id/electrnicvariantlayout_foodProduct"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="Select the product variant"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="10dp"
+
+                        />
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        >
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/radGrp_electric"
+
+                            >
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="2 GB"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gb2_btn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="3 GB"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gb3_btn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="4 GB"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gb4_btn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="6 GB"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gb6_btn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="8 GB"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gb8_btn"
+                                />
+
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="Others"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/others_electrical_radtn"
+                                />
+
+
+
+                        </RadioGroup>
+
+
+
+
+
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+
+
+                <!--            Followingg is the layout for grocery variants-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:paddingTop="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingBottom="10dp"
+                    android:visibility="gone"
+                    android:id="@+id/groceryvariantLayout_foodProduct"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="Select the product variant"
+                        android:layout_marginLeft="10dp"
+
+                        />
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        >
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/radGrp_grocery"
+
+                            >
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="50 gram"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gram50_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="100 gram"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gram100_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="200 gram"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gram200_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="250 gram"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gram250_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="500 gram"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/gram500_radBtn"
+                                />
+
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="1 KG"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/kg1_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="Others"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/others_grocery_radBtn"
+                                />
+
+
+
+                        </RadioGroup>
+
+
+
+
+
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+
+
+                <!-- Followingg is the layout for fashion variants&ndash;&gt;-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:paddingTop="10dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingBottom="10dp"
+                    android:visibility="gone"
+                    android:id="@+id/fashionvariantlayout_foodProduct"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="Select the product variant"
+                        android:layout_marginLeft="10dp"
+
+                        />
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        >
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/radGrp_fashion"
+                            >
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="S"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/s_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="M"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/m_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="L"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/l_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="XL"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/xl_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="XXL"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/xxl_radBtn"
+                                />
+
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="Free size"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/freesize_radBtn"
+                                />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/mainyellow"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="Others"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/others_fashion_radBtn"
+                                />
+
+
+
+                        </RadioGroup>
+
+
+
+
+
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/mainyellow"
+        android:gravity="right"
+        android:padding="10dp"
+        android:id="@+id/btnLayout_addProduct"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/category_box"
+            android:padding="10dp"
+            android:layout_marginRight="5dp"
+
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/cart_ic"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Add to cart"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/addToCartBtn_foodProduct"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".OrdersActivity">
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+
+           <ImageView
+               android:layout_width="45dp"
+               android:layout_height="35dp"
+               android:src="@drawable/backbtn_ic"
+               app:tint="@color/black"
+               android:scaleType="fitXY"
+               android:id="@+id/backBtn_orders"
+               android:layout_margin="10dp"/>
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="32sp"
+               android:textColor="@color/black"
+               android:text="My Orders"
+               android:layout_marginLeft="15dp"
+               android:id="@+id/title_orders"
+               />
+
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginTop="15dp"
+               android:background="@drawable/editttxt"
+               android:textColorHint="#A9A9A9"
+               android:hint="Enter order id to find"
+               android:padding="8dp"
+               android:drawableRight="@drawable/search_ic"
+               android:drawableTint="@color/black"
+               android:textColor="@color/black"
+               android:id="@+id/searchBar_orders"
+               />
+
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               android:id="@+id/recycler_orders"
+               />
+
+
+
+
+
+
+
+
+
+
+
+
+
+       </LinearLayout>
+   </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

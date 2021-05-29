@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/myRegistration_seller"
+        android:title="My Registration"
+        android:icon="@drawable/my_registration"
+        />
+
+    <item
+        android:id="@+id/aboutus_seller"
+        android:title="About Us"
+        android:icon="@drawable/aboutus_ic"
+        />
+
+    <item
+        android:id="@+id/contactus_seller"
+        android:title="Contact Us"
+        android:icon="@drawable/contactus_ic"
+        />
+
+    <item
+        android:id="@+id/rateus_seller"
+        android:title="Rate Us"
+        android:icon="@drawable/rateus_ic"
+        />
+
+    <item
+        android:id="@+id/news_seller"
+        android:title="News"
+        android:icon="@drawable/news_ic"
+        />
+
+    <item
+        android:id="@+id/jobs_seller"
+        android:title="Jobs"
+        android:icon="@drawable/jobs_ic"
+        />
+
+    <item
+        android:id="@+id/logout_seller"
+        android:title="Logout"
+        android:icon="@drawable/logout_ic"
+        />
+
+</menu>

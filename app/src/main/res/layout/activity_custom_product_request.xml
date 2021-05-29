@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Buyer.CustomProductRequest">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/backbtn_ic"
+                app:tint="@color/black"
+                android:scaleType="fitXY"
+                android:id="@+id/backBtn_customProduct"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:textColor="@color/black"
+                android:text="Request Custom Product"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/storeTitle_subCategoryActivity"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/addimage_ic"
+                android:id="@+id/image_customProduct"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:text="Provide a image if you have one.(Optional)"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:id="@+id/imageAdvice_customProduct"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/editttxt"
+                android:layout_margin="10dp"
+                android:textColorHint="#A9A9A9"
+                android:hint="Product name"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:id="@+id/name_customProduct"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/editttxt"
+                android:layout_margin="10dp"
+                android:textColorHint="#A9A9A9"
+                android:gravity="start"
+                android:hint="Describe the poduct in brief, so that we find it easily"
+                android:lines="4"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:id="@+id/descri_customProduct"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editttxt"
+                android:layout_margin="10dp"
+                android:textColorHint="#A9A9A9"
+                android:hint="Provide a product link from the internet."
+                android:gravity="start"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:id="@+id/link_customProduct"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/editttxt"
+                android:layout_margin="10dp"
+                android:textColorHint="#A9A9A9"
+                android:hint="Provide a Contact Number to reach you"
+                android:gravity="start"
+                android:padding="8dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="@color/black"
+                android:id="@+id/contact_customProduct"
+                />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttons"
+                android:text="Request Product"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/requestBtn_customProduct"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
